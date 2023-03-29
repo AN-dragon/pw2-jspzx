@@ -6,31 +6,35 @@
 
 <body>
 
-    <h1>While</h1>
-    <%
-        int cont = 1;
+    <h1 style="color: #006eff">While</h1>
+        <%
+            int cont = 1;
 
-        while(cont <= 1031) {
-            if(cont > 1) {
+            while(cont <= 1031) {
+
+             if(cont > 1) {
                 out.print(", ");
-            }
+             }
 
             out.print(cont);
             cont++;
-        }
-    %>
+            }
 
-    <hr />
+        %>
 
-    <%
-        String word = "";
+     <hr />
 
-        while(!word.equals("AAAA")) {
+        <%
+            String word = "";
+
+            while(!word.equals("AAAA")) {
             out.print(word);
-            word += "A";
-        }
-    %>
+             word += "A";
+            }
+        %>
 
+        <br /> <br />
+        <a href="index.html" style="text-align: center">Menu</a>
 </body>
 
 </html>
